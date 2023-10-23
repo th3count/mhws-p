@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timers>
+    <!-- Timer Configuration -->
+    <timer>
+        <!-- Zone ID associated with this timer -->
+        <Zone_ID>1</Zone_ID>
+        <!-- Frequency of watering (e.g., 2D for twice daily) -->
+        <Frequency>2D</Frequency>
+        <!-- Duration of each watering cycle (minutes) -->
+        <Duration>10</Duration>
+        <!-- Start time for watering cycle (HH:MM) -->
+        <Start_Time>08:00,16:00</Start_Time>
+    </timer>
+    <!-- Add more timer entries as needed -->
+</timers>

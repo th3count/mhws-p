@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relays>
+    <!-- Relay Configuration -->
+    <relay>
+        <!-- Unique ID for this relay -->
+        <zoneID>1</zoneID>
+        <!-- Corresponding GPIO Pin on the Raspberry Pi -->
+        <gpioPin>5</gpioPin>
+        <!-- User-defined alias for easier identification -->
+        <alias>Front Yard</alias>
+        <!-- State of the relay (HIGH or LOW) -->
+        <state>LOW</state>
+    </relay>
+    <!-- Add more relay entries as needed -->
+</relays>
