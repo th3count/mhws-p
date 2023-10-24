@@ -3,17 +3,18 @@
     <!-- Zone Configuration -->
     <zone>
         <!-- Unique ID for this zone -->
-        <ID>1</ID>
-        <!-- Name of the plant in the garden -->
-        <Plant>Raspberry</Plant>
-        <!-- Size of the installed rainbird emitter (gp/h) -->
-        <Emitter_Size>2.0</Emitter_Size>
-        <!-- Recommended size of rainbird emitter (gp/h) -->
-        <Emitter_Recommended>1.5</Emitter_Recommended>
-        <!-- Water requirement for the plant (inches/week) -->
-        <Water_Requirement>0.5</Water_Requirement>
-        <!-- Actual amount of water the plant receives (inches/week) -->
-        <Water_Actual>0.6</Water_Actual>
+        <zone_ID>1</ID>  <!-- zone ID -->
+        <Plants>
+            <Plant>
+                <Plant_ID>1</Plant_ID> <!-- plant id -->
+            </Plant>
+            <Plant>
+                <Plant_ID>2</Plant_ID>
+            </Plant>
+        </Plants>
+    </zone>
+    <zone>
+        <!-- Another zone entry -->
     </zone>
     <!-- Add more zone entries as needed -->
 </zones>
