@@ -28,6 +28,8 @@
         <Duration>10</Duration>
         <!-- Start time for watering cycle -->
         <Start_Time>08:00</Start_Time>
+		<!-- Timer enabled or disabled. -->
+		<Enabled>1</enabled>
     </timer>
     <!-- Add more timer entries as needed -->
 </timers>
