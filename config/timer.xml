@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timers>
+    <!-- Location Coordinates -->
+    <Latitude>37.7749</Latitude> <!-- Example: Latitude for San Francisco, CA -->
+    <Longitude>-122.4194</Longitude> <!-- Example: Longitude for San Francisco, CA -->
+
     <!-- Timer Configuration -->
+    <!-- Frequency Codes Legend:
+         - D-#: Indicates daily watering frequency.
+            - Example: D-2 for twice daily.
+         - W-"Day code" Indicates specific days of the week to water.
+            - Day codes: M, T, W, Th, F, S, Su
+            - Example: W-MThSu indicates watering on Mondays, Thursdays, and Sundays.
+         - M-"Date" Indicates specific days of the month to water.
+            - Example: M-1,14 indicates watering on the 1st and 14th of the month.
+
+    Valid inputs for Start_Time:
+         - HH:MM: Specify a time in a 24-hour clock format (e.g., 08:00).
+         - SR+/-Offset: Relative to sunrise time, with a positive or negative offset (e.g., SR-30 for 30 minutes before sunrise).
+         - SS+/-Offset: Relative to sunset time, with a positive or negative offset (e.g., SS+15 for 15 minutes after sunset).
+    -->
     <timer>
-        <!-- Zone ID associated with this timer -->
+        <!-- Identifier for the relay's associated channel -->
         <Zone_ID>1</Zone_ID>
-        <!-- Frequency of watering (e.g., 2D for twice daily) -->
-        <Frequency>2D</Frequency>
+        <!-- Frequency of watering -->
+        <Frequency>D-2</Frequency>
         <!-- Duration of each watering cycle (minutes) -->
         <Duration>10</Duration>
-        <!-- Start time for watering cycle (HH:MM) -->
-        <Start_Time>08:00,16:00</Start_Time>
+        <!-- Start time for watering cycle -->
+        <Start_Time>08:00</Start_Time>
     </timer>
     <!-- Add more timer entries as needed -->
 </timers>

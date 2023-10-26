@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plants>
     <plant>
-        <Plant_ID>1</ID> <!-- Unique plant ID -->
-        <Name>Roses</Name> <!-- Name of the plant -->
-        <Emitter_Size>2.0</Emitter_Size> <!-- measured in gp/h -->
-        <Emitter_Responsibility>1</Emitter_Responsibility> <!-- measured in sqft -->
-        <Water_Requirement>0.5</Water_Requirement> <!-- measured in inches -- >
+        <Plant_ID>1</Plant_ID> <!-- Unique identifier for the plant -->
+        <Name>Roses</Name> <!-- Common name of the plant -->
+        <Emitter_Size>2.0</Emitter_Size> <!-- Water emitter size, measured in gallons per hour (gp/h) -->
+        <Emitter_Responsibility>1</Emitter_Responsibility> <!-- Area of responsibility for water distribution, measured in square feet (sqft) -->
+        <Water_Requirement>0.5</Water_Requirement> <!-- Water requirement for the plant, measured in inches -->
     </plant>
     <plant>
-        <ID>2</ID> <!-- Unique plant ID -->
-        <Name>Tulips</Name> <!-- Name of the plant -->
-        <Emitter_Size>1.5</Emitter_Size> <!-- measured in gp/h -->
-        <Emitter_Responsibility>150</Emitter_Responsibility> <!-- measured in sqft -->
-        <Water_Requirement>0.4</Water_Requirement> <!-- measured in inches -- >
+        <Plant_ID>2</Plant_ID> <!-- Unique identifier for the plant -->
+        <Name>Tulips</Name> <!-- Common name of the plant -->
+        <Emitter_Size>1.5</Emitter_Size> <!-- Water emitter size, measured in gallons per hour (gp/h) -->
+        <Emitter_Responsibility>150</Emitter_Responsibility> <!-- Area of responsibility for water distribution, measured in square feet (sqft) -->
+        <Water_Requirement>0.4</Water_Requirement> <!-- Water requirement for the plant, measured in inches -->
     </plant>
 </plants>

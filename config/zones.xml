@@ -2,15 +2,10 @@
 <zones>
     <!-- Zone Configuration -->
     <zone>
-        <!-- Unique ID for this zone -->
-        <zone_ID>1</ID>  <!-- zone ID -->
+        <zone_ID>1</zone_ID> <!-- Identifier for the relay's associated channel -->
         <Plants>
-            <Plant>
-                <Plant_ID>1</Plant_ID> <!-- plant id -->
-            </Plant>
-            <Plant>
-                <Plant_ID>2</Plant_ID>
-            </Plant>
+            <Plant_ID>1</Plant_ID> <!-- Plant ID of the first plant in this zone -->
+            <Plant_ID>2</Plant_ID> <!-- Plant ID of the second plant in this zone -->
         </Plants>
     </zone>
     <zone>

@@ -2,10 +2,10 @@
 <relays>
     <!-- Relay Configuration -->
     <relay>
-        <zoneID>1</zoneID> <!-- relay channel number -->
-        <gpioPin>5</gpioPin> <!-- Corresponding GPIO Pin on the Raspberry Pi -->
-        <alias>Front Yard</alias> <!-- alias --> 
-        <state>LOW</state> <!-- is relay state high or low to enable) -->
+        <zone_ID>1</zone_ID> <!-- Identifier for the relay's associated channel -->
+        <gpioPin>5</gpioPin> <!-- Corresponding GPIO Pin on the Raspberry Pi to control the relay channel -->
+        <alias>Front Yard</alias> <!-- Descriptive name, alias, or area associated with the zone controlled by the relay --> 
+        <state>LOW</state> <!-- State (LOW or HIGH) at which the relay is enabled or activated -->
     </relay>
     <!-- Add more relay entries as needed -->
 </relays>
